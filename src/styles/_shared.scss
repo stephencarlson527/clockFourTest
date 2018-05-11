@@ -1,0 +1,55 @@
+@import 'placeholders';
+p {
+  font-size: $p;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 100% !important;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+h2 {
+  font-size: $h2;
+  color: #000;
+}
+h3, h4 {
+  color: #6F15FF;
+  font-weight: 700;
+}
+.row {
+  max-width: 1200px !important;
+  margin: 2% 5%;
+  position: relative;
+  padding: 0 2%;
+  @include mq(tablet-wide) { // 1024px
+    margin: 0 auto ;
+    padding: 0;
+  }
+}
+.cf-main {
+  background-color: #fff;
+}
+.cf-bold {
+  font-size: 1.8em;
+}
+.cf-fqaTitle {
+  background-color: grey;
+}
+
+// OVER RIDES
+@import 'mobile';
+@media screen and (min-width: 768px) {
+  @import 'tablet';
+}
+@media screen and (min-width: 1024px) {
+  @import 'desktop';
+}
+
+

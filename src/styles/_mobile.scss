@@ -1,0 +1,16 @@
+// Mobile scss - already media queried in _shared.scss
+
+.cf-main {
+	#cf-adSpace {
+		margin: $mbmargin auto;
+	}
+	#cf-hero  {
+		background-color: #fff;
+	}
+	.cf-mobile {
+		display: block;
+	}
+	.cf-desktop {
+		display: none;
+	}
+}
