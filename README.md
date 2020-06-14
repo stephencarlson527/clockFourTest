@@ -1,5 +1,5 @@
 # README #
-This is a landing page gulp setup with npm that I created for my local development while at Toys R Us.
+This is a landing page gulp setup with npm that I created for my local development
 ### What is this repository for? ###
 
 * To Create a Clock Four Landing Page
